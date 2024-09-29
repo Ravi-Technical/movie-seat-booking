@@ -1,0 +1,115 @@
+<html>
+<title>Movie Seat Booking </title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+
+  <div class="wraper">
+       <span> Choose a movie</span>
+	   <select id="movie">
+		<option value="10"> Sole ($10)</option>
+		<option value="12"> The King ($12)</option>
+		<option value="13"> Iron Man 3 ($13)</option>
+		<option value="14"> Iron Man 2 ($14)</option>		
+	   </select>
+	   <ul class="showcase">
+		  <li>
+		    <div class="seat"></div>
+			<small>N/A</small>
+		  </li>
+		  <li>
+		    <div class="seat selected"></div>
+			<small>Selected</small>
+		  </li>
+		  <li>
+		    <div class="seat occupied"></div>
+			<small>Occupied</small>
+		  </li>
+		</ul>
+		
+	   <div class="container">
+		
+		 <div class="screen"></div>
+		 <div class="row">
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>	  
+		 </div>
+		 
+		  <div class="row">
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>		  
+		 </div>
+		 
+		  <div class="row">
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat occupied"></div>
+			<div class="seat occupied"></div>
+			<div class="seat"></div>	  
+		 </div>
+		 
+		  <div class="row">
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat occupied"></div>
+			<div class="seat occupied"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>		  
+		 </div>
+		 
+		  <div class="row">
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>		  
+		 </div>
+		 
+		  <div class="row">
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat"></div>
+			<div class="seat occupied"></div>
+			<div class="seat"></div>
+			<div class="seat occupied"></div>
+			<div class="seat"></div>	  
+		 </div>
+	   </div>
+	   <p class="text"> You have select the seat <span id="count">0</span> and movie price is $<span id="total">0</span></p>
+	   
+  </div>
+
+
+
+
+<script src="./custom.js"></script>
+</body>
+</html>
