@@ -73,10 +73,12 @@ ul.showcase {
 
 select#movie {
     padding: 5px 20px;
-    border: none;cursor:pointer;
+    border: none;
+    cursor: pointer;
     border-radius: 2px;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: non;
-    width: 67%;
+    width: 20.1rem;
+}
+.wraper {
+    width: 30%;
+    text-align: center;
 }
